@@ -77,12 +77,12 @@ body {
     font-size: 16px;
   }
   #button{
-    background-color: #C21807;
+    background-color: rgb(132, 88, 88);
     padding: 10px 10px;
     margin-top: 83px;
   } 
   #button:hover {
-    background-color: #9b1b0f;
+    background-color: rgb(108, 69, 69);
     transition: all 0.2s ease;
     color: white;
   }

@@ -80,15 +80,15 @@ body {
     color: #329dd5;
     transition: all 0.2s ease;
   }
-  #buttons{
-    background-color: #C21807;;
+  #button{
+    background-color: rgb(132, 88, 88);
     padding: 10px 10px;
-  }
-  #buttons:hover {
-    background-color: #9b1b0f;
+    margin-top: 83px;
+  } 
+  #button:hover {
+    background-color: rgb(108, 69, 69);
     transition: all 0.2s ease;
-    color: white;
-  }
+    color: white;}
   #cos{
     color:white;
     text-decoration: none;
