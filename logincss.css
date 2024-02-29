@@ -1,0 +1,179 @@
+body {
+    background-color: white;
+    font-size: 1.6rem;
+    font-family: "Open Sans", sans-serif;
+  }
+  #newsera-logo img{
+    height: 91px;
+    width: 342px;
+  }
+  #line{
+    width:87%;
+  }
+  h2 {
+    font-weight: 300;
+    text-align: center;
+  }
+  #login-box {
+    background-color: #fff;
+    width: 35%;
+    margin: 40px auto;
+    text-align: center;
+    padding: 20px 0 0 0;
+    border-radius: 4px;
+    box-shadow: 0px 30px 50px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  #login-form {
+    padding: 0px 60px;
+  }
+  input{
+    width: 100%;
+    outline: none;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 4px;
+    padding: 0 0 0 10px;
+    margin: 0;
+    color: #8a8b8e;
+    border: 1px solid #c2c0ca;
+    font-size: 16px;
+  }
+  input:focus {
+    border-color: #3ca9e2;
+  }
+  input[type="text"]:hover,input[type="password"]:hover {
+    transition: all 0.2s ease;
+    border: 1px solid #329dd5;
+    color: black;
+  }
+  
+  #sign-up {
+    background-color: #eeedf1;
+    color: #8a8b8e;
+    font-size: 14px;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 0 0 4px 4px;
+  }
+  #sign-up a{
+    color: #3ca9e2;
+    transition: all 0.2s ease;
+  }
+  a:hover {
+    color: #146c9b;
+    transition: all 0.2s ease;
+  }
+  #check-box{
+    height:15px;
+    width:15px;
+  }
+  #rem{
+    font-size: 16px;
+    float:left;
+  }
+  #forget-p{
+    float:right;
+    font-size: 16px;
+  }
+  #button{
+    background-color: #C21807;
+    padding: 10px 10px;
+    margin-top: 83px;
+  } 
+  #button:hover {
+    background-color: #9b1b0f;
+    transition: all 0.2s ease;
+    color: white;
+  }
+  #co{
+    color:white;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width:300px) {
+    /* body{
+      background-color: red;
+    } */
+    #login-box {
+      width:85%;
+      font-size: 1rem;
+      padding: 4px 0 0 0;
+    }
+    #login-form {
+      padding: 0px;
+    }
+    input{
+      width: 81%;
+      height: 33px;
+      line-height: 32px;
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (min-width: 300px) and (max-width:600px) {
+    /* body{
+      background-color: blue;
+    } */
+    #login-box {
+      width:67%;
+      font-size: 1rem;
+      padding: 4px 0 0 0;
+    }
+    #login-form {
+      padding: 1px;
+    }
+    input{
+      width: 70%;
+      height: 26px;
+      line-height: 30px;
+      font-size: 14px;
+  
+    }
+    #newsera-logo img{
+      height: 45px;
+      width: 163px;
+    }
+    #rem{
+      font-size: 12px;
+    }
+    #check-box{
+      height:10px;
+      width:10px;
+      margin:0px 10px; 
+    }
+    #forget-p a{
+      font-size: 12px;
+      margin:0px 10px;
+    }
+    h2 {
+      font-size: 17px;
+    }
+    #login {
+      padding: 1px 0;
+    }
+    #head {
+      font-size: 22px;
+    }
+  }
+    
+  
+  
+  @media only screen and (min-width: 600px) and (max-width:900px) {
+    /* body{
+      background-color: blue;
+    } */
+    #login-box{
+      width:60%;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 900px) and (max-width:1200px) {
+    /* body{
+      background-color: green;
+    } */
+    #login-box{
+      width:45%;
+    }
+  } 

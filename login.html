@@ -1,13 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AgriWorld - Login</title>
+  <meta charset="UTF-8">
+  <title>Login </title>
+  <link rel="stylesheet" href="logincss.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
+<div id="login-box"> 
+  <div id="newsera-logo"> <h1>AgriWorld</h1></div> 
+  <hr id="line">
+  <h2>Welcome Back</h2>
+  <form id="login-form">
+    <p> 
+    <input type="text" id="username" name="username" placeholder="Email or Username" required>
+    </p>
+    <p>
+    <input type="password" id="password" name="password" placeholder="Password" required>
+    </p>
+    <p>
+      <span id="rem"><input type="checkbox" id="check-box"> Remember me</span> <span id="forget-p"><a href="#">Forgot Password?</a></span>
+    </p>
+    <p>
+      <a href="/" id="co"><div id="button">LOGIN</div></a>
+    </p>
+  </form>
+  <div id="sign-up">
+    <p>Not a member? <a href="/signup">Create Account</a><p>
+  </div>
+</div>
 
-    
-    
 </body>
 </html>
