@@ -32,6 +32,7 @@ body{
     background-color: beige;
     color:black;
 }
+
 #right-nav ul{
     display: inline-block;
     display: flex;
@@ -73,3 +74,84 @@ body{
 .right{
     text-align: right;
 }
+.center{
+    text-align: center;
+}
+
+/* product */
+
+#main-product-section{
+    margin: 5px;
+    padding: 5px;
+}
+
+#product-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.products{
+    padding: 10px;
+    margin:10px;
+    background-color: black;
+    color:white;
+    border-radius: 15px;
+    height: 170px;
+    width: 15%;
+}
+
+.products-main{
+    padding: 10px;
+    margin: 19px;
+}
+.btn-pro{
+    padding: 10px;
+    margin: 10px;
+    background-color: lightblue;
+    color:white;
+    border-radius: 12px;
+    /* width: 100%; */
+    display: inline;
+}
+.btn-pro:hover{
+    background-color: burlywood;
+    color: black;
+}
+.products-name{
+    float: left;
+}
+.products-price{
+    float: right;
+}
+.products-sell{
+    margin: 40px 10px 10px 10px;
+    padding: 5px;
+    /* position: relative; */
+    /* bottom: 10px; */
+}
+#product-choose{
+    background-color: rgb(108, 69, 69);
+}
+#product-choose ul{
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+#product-choose ul li{
+    padding: 10px;
+    margin: 10px;
+}
+
+#product-choose ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 8px;
+    border-radius: 19px;
+}
+#product-choose ul li a:hover{
+    background-color: beige;
+    color:black;
+}
+
